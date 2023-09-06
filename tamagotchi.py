@@ -18,17 +18,17 @@ def realizar_acao(escolha): # --> Função que retira e adiciona energia, fome e
         felicidade = felicidade + 10
         energia = energia - 10
         fome = fome - 10
-        print(f"Fique esperto em seus medidores:\nEnergia: {energia}\nFome: {fome}\nFelicidade: {felicidade}")
+        print(f"Fique esperto em seus medidores:\nEnergia: {energia}%\nFome: {fome}%\nFelicidade: {felicidade}%")
     elif escolha == 2:
         energia = energia + 10
         fome = fome - 10
         felicidade = felicidade - 10
-        print(f"Fique esperto em seus medidores:\nEnergia: {energia}\nFome: {fome}\nFelicidade: {felicidade}")
+        print(f"Fique esperto em seus medidores:\nEnergia: {energia}%\nFome: {fome}%\nFelicidade: {felicidade}%")
     elif escolha == 3:
         fome = fome + 10
         felicidade = felicidade - 10
         energia = energia - 10
-        print(f"Fique esperto em seus medidores:\nEnergia: {energia}\nFome: {fome}\nFelicidade: {felicidade}")
+        print(f"Fique esperto em seus medidores:\nEnergia: {energia}%\nFome: {fome}%\nFelicidade: {felicidade}%")
     else:
         print("Opção inválida, por favor escolha outra:")
     
