@@ -38,7 +38,7 @@ def morte():  # --> Função que chama a morte do personagem
     if felicidade <= 0:
         print(f"AH NÃO, QUE PENA!\n{nome} acaba de morrer de desgosto, sinto muito!")
         exit()
-    elif felicidade > 100:
+    elif felicidade >= 100:
         print(f"Você abusou de mais do {nome} acabou matando ele de tanto esforço!")
         exit()
     elif fome <= 0:
